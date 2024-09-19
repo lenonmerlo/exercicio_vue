@@ -1,29 +1,25 @@
-# vue-project
+# Calculadora Aritmética
 
-This template should help get you started developing with Vue 3 in Vite.
+Este repositório contém o projeto de uma calculadora aritmética, desenvolvido como parte do curso de **Engenharia Front-End** da **Escola EBAC**.
 
-## Recommended IDE Setup
+## Descrição do Projeto
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+A calculadora aritmética permite realizar as operações básicas de adição, subtração, multiplicação e divisão. O projeto foi desenvolvido utilizando **Vue.js** e contém os seguintes elementos:
 
-## Customize configuration
+- Dois campos para inserir os números.
+- Um campo do tipo `select` para escolher a operação aritmética.
+- O cálculo é realizado automaticamente, sem necessidade de clicar em nenhum botão.
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## Funcionalidades
 
-## Project Setup
+- **Adição**: Soma os dois números inseridos.
+- **Subtração**: Subtrai o segundo número do primeiro.
+- **Multiplicação**: Multiplica os dois números.
+- **Divisão**: Divide o primeiro número pelo segundo, com tratamento de erro para divisão por zero.
 
-```sh
-npm install
-```
+## Tecnologias Utilizadas
 
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+- Vue.js
+- JavaScript (ES6+)
+- HTML5
+- CSS3
